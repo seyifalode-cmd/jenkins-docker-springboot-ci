@@ -56,7 +56,6 @@
     package:
       name: "docker"
       state: present
-      latest: yes
 
   - name: Ensure group "docker" exists
     ansible.builtin.group:
