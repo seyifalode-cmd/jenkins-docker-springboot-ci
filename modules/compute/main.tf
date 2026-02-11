@@ -47,7 +47,7 @@ resource "aws_instance" "jenkins" {
   provisioner "remote-exec" {
     inline = [
       "sudo yum update -y && sudo amazon-linux-extras install ansible2 -y",
-      "sleep 60s",
+      "sleep 30s",
       "ansible-playbook install_jenkins_and_docker.yaml"
     ]
  }
