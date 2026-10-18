@@ -1,4 +1,6 @@
-# **Jenkins and Docker CI Server — AWS Infrastructure Automation**
+# Jenkins and Docker CI Server — AWS Infrastructure Automation
+
+Oluwaseyi Michael Falode | Cloud & DevOps Engineering | Toronto, ON
 
 Terraform and Ansible automation that provisions a production-ready Jenkins CI server on AWS EC2, pre-configured with Docker, Maven, and all dependencies required to run a Spring Boot containerization pipeline.
 
